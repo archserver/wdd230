@@ -1,0 +1,138 @@
+/* Import selected fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Indie+Flower&family=Rowdies&display=swap');
+
+/** {
+   border: 2px solid red;
+}*/
+
+body{
+    background-color: lightblue ;
+    /*font-family: Arial, Helvetica, sans-serif*/
+    font-family: Rowdies, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding-left: 15%;
+    background-color: #8EB8E5;
+    opacity: .8;
+}
+
+header img{
+    max-width: 75%;
+    padding: 15px;
+}
+
+footer{
+    padding: 25px 50px;
+    background-color: #8EB8E5;
+    color: #031928;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size: .75em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: orange;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    /*text-align: center;*/
+}
+
+nav a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #7C99B4;
+    color: #34252F;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main section{
+    text-align: center; /*Center within the section*/
+}
+
+main ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid gray;
+    padding-bottom: 0.5em;
+}
+
+section{
+    border: 1px solid slategray;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3{
+    margin: -10px;
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h4{
+    color: #031928;
+}
+
+.card h3 + ul {
+    counter-reset: itemNumber;
+    text-align: left;
+    font-size: 0.7em;
+    padding-top: 10px;
+}
+
+.card h3 + ul li::before {
+    counter-increment: itemNumber;
+    content: counter(itemNumber, decimal-leading-zero) ": ";
+    margin-right: 5px;
+}
+
+img.flag{
+    max-width: 50px;
+    max-height: 75%;
+}
