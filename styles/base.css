@@ -55,6 +55,7 @@ footer a:hover{
 
 nav{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-color: black;
     /*text-align: center;*/
@@ -106,6 +107,7 @@ section{
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 10px;
+    background-color: #fff;
 }
 
 h3{
