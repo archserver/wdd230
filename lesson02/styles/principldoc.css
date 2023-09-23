@@ -1,0 +1,98 @@
+body {
+	font-family: Roboto, helvetica, sans-serif;
+}
+
+header,
+main,
+footer {
+	max-width: 760px;
+	margin: 0 auto;
+}
+
+h1 {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main {
+    grid-template-columns: auto 25%;
+    grid-template-rows: repeat(5,auto);
+	display: grid;
+}
+
+h2 {
+	color: navy;
+	text-align: left;
+    grid-column: span 2;
+}
+
+article p {
+	text-align: justify;
+}
+
+#badfont{
+    grid-row: span 2;
+}
+.contrast {
+    grid-column: span 2;
+	color: #eeddee;
+	background-color: #552063;
+    padding: 15px;
+}
+
+.stormy {
+    grid-column: span 2;
+	color: #5742b5;
+	background-color: #552063;
+    padding: 1px;
+}
+
+footer {
+	margin-top: 1rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: smaller;
+	text-align: right;
+}
+
+a.size{
+    font-size: larger;
+}
+
+a.bold{
+    font-weight: bold;
+}
+
+a.italics{
+    font-style: italic;
+}
+
+#font1 {
+    font-family: 'Croissant One', cursive;
+    line-height: 10px; 
+    text-align: center; 
+}
+
+#font2 {
+    font-family: 'Roboto', cursive;
+    line-height: .8;
+    font-size: 200%;
+    text-align: right;
+}
+
+#font3 {
+    font-family: 'Rowdies', cursive;
+    line-height: .7;  
+    text-align: left; 
+}
+
+#color1{
+    color: aqua;
+    background-color: red;
+}
+#color2{
+    color: yellow;
+    background-color: orange;
+}
+#color3{
+    color: hotpink;
+    background-color: blue;
+}
