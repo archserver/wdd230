@@ -1,0 +1,32 @@
+@media screen and  (min-width: 720px){
+     header, main, footer {
+        max-width: 640px;
+    }
+
+    header{
+        background-color: grey;
+        color: white;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section{
+        padding: 1rem;
+        background-color: #fff;
+    }
+    h2{
+        grid-column: span 2;
+    }
+    .contrast{
+        grid-column: span 2;
+    }
+    .stormy{
+        grid-column: span 2;
+    }
+    #badfont{
+        grid-row: span 2;
+    }
+}
+  

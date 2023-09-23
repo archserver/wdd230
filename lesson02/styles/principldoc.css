@@ -5,7 +5,7 @@ body {
 header,
 main,
 footer {
-	max-width: 760px;
+	max-width: 400px;
 	margin: 0 auto;
 }
 
@@ -14,33 +14,27 @@ h1 {
 }
 
 main {
-    grid-template-columns: auto 25%;
-    grid-template-rows: repeat(5,auto);
+    grid-template-columns: 1fr;
+   /* grid-template-rows: repeat(5,auto);*/
 	display: grid;
 }
 
 h2 {
 	color: navy;
 	text-align: left;
-    grid-column: span 2;
 }
 
 article p {
 	text-align: justify;
 }
 
-#badfont{
-    grid-row: span 2;
-}
 .contrast {
-    grid-column: span 2;
 	color: #eeddee;
 	background-color: #552063;
     padding: 15px;
 }
 
 .stormy {
-    grid-column: span 2;
 	color: #5742b5;
 	background-color: #552063;
     padding: 1px;
