@@ -134,3 +134,16 @@ img.flag{
     max-width: 50px;
     max-height: 75%;
 }
+
+/*li ~ li {
+  color: grey;
+}
+
+li + li + li {
+    color: darkgray;
+} */
+
+/*li:nth-of-type(2n+0) a {
+    color: darkgray;
+} */
+
