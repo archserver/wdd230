@@ -41,7 +41,7 @@
 
     .navigation li {
 		display: block;
-		flex: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
 
     section{
