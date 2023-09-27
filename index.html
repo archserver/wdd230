@@ -30,7 +30,6 @@
     <meta property="og:image" content="https://www.travelandleisure.com/thmb/A2oNrXncfse5u8RN0YrDPKj8vGk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/houston-texas_HOUSTON1222-1aa2b78360be48e5ab3ee4a6fe3459b8.jpg">
     <meta property="og:url" content="https://archserver.github.io/wdd230/index.html">
     <meta name="twitter:card" content="summary_large_image">
-
   </head>
   <body>
     <header>
@@ -39,38 +38,40 @@
         <h1>Bryon Chase</h1>
     </header>
     <nav>
-      <a href="#">Home</a>
-      <a href="chamber/sightplan.html">Site Plan</a>
-      <a href="chamber/">Chamber</a>
-      <a href="https://www.byui.edu/" target="_blank">BYU Idaho</a>
-      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/41?lang=eng&id=14#p14" target="_blank">Scripture</a>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="#" class ="active">Home</a></li>
+            <li><a href="chamber/sightplan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu/" target="_blank">BYU Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/41?lang=eng&id=14#p14" target="_blank">Scripture</a></li>
+        </ul>
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card"> 
             <h3>Learning Activities</h3>
             <ul>
-                <li>
+                <li> 
                     <a href="lesson01/holygrail.html"> Holy Grail Template</a>
                     :
                     <a href="lesson01/codepensample.html"> Codepen Sample</a>
                 </li>
-                <li>
+                <li> 
                     <a href="lesson02/design.html">Design Principals</a>
                     :
                     <a href="lesson01/media-query.html">Media Query</a>
                     :
                     <a href="lesson02/principldoc.html">Principals Document</a>
                 </li>
-                <li>
+                <li> 
                     <a href="images/combinators.webp">Combinator Exersize</a>
                     <a href="lesson03/cp_pseudo-element.html">Pseudo-Elements</a>
                     <a href="lesson03/cp_hamburger.html">Responsive: Hamburger</a>
                 </li>
                 <li>
-                    <a>next part</a>
+                    <a></a>
                 </li>
-            </ul>
         </section>
         <section class="card">
             <h3>Information</h3>
@@ -87,5 +88,6 @@
         <p id="lastModified">Date Last Modified</p>
     </footer>
     <script src="scripts/getdates.js"> </script>
+    <script src="menu.js"></script>
   </body>
 </html>

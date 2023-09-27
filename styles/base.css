@@ -135,11 +135,52 @@ img.flag{
     max-height: 75%;
 }
 
-/*li ~ li {
-  color: grey;
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position:relative;
+	top: 0;
+	left: 0;
 }
 
-li + li + li {
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "💢";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.navigation li {
+	display: none;
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active{
+    background-color: #34252F;
+}
+
+/*ul > li {
+  color: red;
+}*/
+
+/*li + li + li {
     color: darkgray;
 } */
 
