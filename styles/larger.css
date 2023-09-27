@@ -48,4 +48,9 @@
         padding: 1rem;
         background-color: #fff;
     }
+    .googlemap{
+        grid-column: span 2;
+      /*  max-width: 100%;
+        max-height: auto;*/
+    }
 }
