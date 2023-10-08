@@ -1,0 +1,61 @@
+@media screen and  (min-width: 720px){
+    main, footer {
+        max-width: 720px;
+        margin: 1rem auto;
+        border: 1px solid #bbb;
+        padding: 1rem;
+    }
+
+    header{
+        font-size:small;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    h2{
+        grid-column: span 2;
+    }
+
+    nav{
+        flex-direction: row;
+        justify-content: center;
+        /*text-align: center;*/
+    }
+
+    nav a{
+        font-size: 200%;
+    }
+
+    footer{
+        font-size: 150%;
+    }
+
+    .slideshow{
+        grid-column: span 2;
+    }
+
+    .biz-grid{
+        grid-column: span 2;
+    }
+    .navigation {
+		flex-direction: row;
+	}
+
+    ul.navigation {
+		display: flex;
+        justify-content: space-between;
+	}
+
+    ul.navigation li {
+        margin: 0; /* Adjust as needed */
+        padding: 0 15px; /* Adjust as needed */
+    }
+    
+    section{
+        padding: 1rem;
+    }
+}
