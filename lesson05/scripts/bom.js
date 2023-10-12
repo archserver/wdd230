@@ -11,6 +11,7 @@ function iwasclicked(){
         const var_delButton = document.createElement('button');
         var_li.textContent = var_input.value;
         var_delButton.textContent = '❌';
+        var_delButton.ariaLabel = 'Remove '+ var_input.value;
         var_li.append(var_delButton);
         var_list.append(var_li);
         
