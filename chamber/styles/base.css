@@ -1,24 +1,24 @@
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #3A5546   ;
-    --secondary-color: #274156 ;
-    --accent1-color: #0F5727;
-    --accent2-color: #46949B;
+    --primary-color: rgb(58,85,70); /*3A5546;*/
+    --secondary-color: rgb(39,65,86);/*#274156;*/
+    --accent1-color: rgb(15,87,39);/*#0F5727;*/
+    --accent2-color: rgb(70,148,155);/*#46949B;*/
   
     /* change the values below to your chosen font(s) */
     --heading-font: "Libre Baskerville", serif;
     --paragraph-font: "Cabin", sans-serif;
   
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #000;  /* headlines on a white background */ 
-    --headline-color-on-color: #FBFBFF; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #000; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #FBFBFF; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #031928  ;
-    --nav-link-color: #E92610;
-    --nav-background-color: #093b2f;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #3A5546;
+    --headline-color-on-white: rgb(0,0,0);/*#000;  headlines on a white background */ 
+    --headline-color-on-color: rgb(251,251,255);/*#FBFBFF; headlines on a colored background */ 
+    --paragraph-color-on-white: rgb(32,32,32);/*#000; paragraph text on a white background */ 
+    --paragraph-color-on-color: rgb(251,251,255);/*#FBFBFF; paragraph text on a colored background */ 
+    --paragraph-background-color: rgb(3,25, 40);/*#031928;*/
+    --nav-link-color: rgb(233,38,16);/*#E92610;*/
+    --nav-background-color: rgb(9, 59, 47);/*#093b2f;*/
+    --nav-hover-link-color: rgb(252,252,55);/*#fff;*/
+    --nav-hover-background-color: rgb(58,85,70);/*#3A5546;*/
 }
 
 body{
@@ -44,11 +44,21 @@ header img{
     max-width: 90%;
 }
 
+#toggleAlpha{
+    position:absolute;
+	top: 0;
+	right: 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 footer{
     display: flex;
     flex-direction: column;
@@ -79,6 +89,7 @@ footer a:hover{
 }
 
 nav{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -100,6 +111,40 @@ nav a:hover{
     color: #34252F;
     text-decoration: none;
 }
+
+/* code for hamburger menu*/
+.navigation li{
+    display: none; /*Hide the Menu by Default*/
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position:absolute;
+	top: 0;
+	right: 0;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "💢";
+}
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+/* end of code for hamburger menu*/
 
 ul.navigation{
     list-style-type: none;

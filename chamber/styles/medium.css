@@ -27,7 +27,9 @@
     }
 
     nav a{
-        font-size: 200%;
+        font-size: 2rem;
+        padding: 1%;
+        margin: 0;
     }
 
     footer{
@@ -46,16 +48,22 @@
 	}
 
     ul.navigation {
-		display: flex;
+		display: flex; 
         justify-content: space-between;
 	}
 
     ul.navigation li {
-        margin: 0; /* Adjust as needed */
-        padding: 0 15px; /* Adjust as needed */
+        display: flex; /*open the menu back up*/
+        margin: 0; 
+        padding: 0 15px; 
     }
     
     section{
         padding: 1rem;
     }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
 }
