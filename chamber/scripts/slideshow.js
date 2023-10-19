@@ -1,5 +1,5 @@
 let index = 0;
-const images = document.querySelectorAll('.slideshow-images img');
+const images = document.querySelectorAll('.slideshow-images picture img');
 
 function slideshow() {
     images[index].style.opacity = "0";

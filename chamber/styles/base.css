@@ -68,25 +68,28 @@ footer{
     background-color: var(--secondary-color);
     color: var(--paragraph-color-on-color);
     margin-top: 5px;
-    align-items: center;
 }
 
-footer p a:hover{
+/*footer p a:hover{
     text-decoration: underline;
 }
 
 footer a{
     color: orange;
-}
+}*/
 
 footer img{
     max-width: 25px;
     height: auto;
 }
 
-footer a:hover{
-    color: yellow;
+footer div, footer p{
+    text-align: center;
 }
+
+/*footer a:hover{
+    color: yellow;
+}*/
 
 nav{
     position: relative;
@@ -167,9 +170,14 @@ h1, h2, h3, h4, h5, h6 {
     animation: slideshow 20s infinite;
 }
 
-.slideshow-images img {
+.slideshow-images picture{
+    display: block;
+}
+
+.slideshow-images img, .slideshow-images picture {
     flex: 0 0 100%;
-    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
