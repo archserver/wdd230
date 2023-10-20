@@ -87,6 +87,38 @@ main ul{
     padding: 0;
 }
 
+.hero {
+    position: relative;
+}
+.hero picture{
+    display: block;
+    width: 100%;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.25);
+	padding: .25rem;
+	box-shadow: 0 0 2rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
 a {
     text-align: center;
 }
