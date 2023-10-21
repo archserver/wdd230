@@ -235,6 +235,9 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: center;
 }
+.card h2{
+    color: var(--headline-color-on-white);
+}
 .overlay-dark{
     position: absolute;
     top: 50%;
