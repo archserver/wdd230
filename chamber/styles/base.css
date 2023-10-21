@@ -230,6 +230,11 @@ h1, h2, h3, h4, h5, h6 {
     align-self: center;
 }    
 
+.card{
+    grid-column: span 2;
+    align-items: center;
+    text-align: center;
+}
 .overlay-dark{
     position: absolute;
     top: 50%;
