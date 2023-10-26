@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryon Chase - WDD 230 - Lazy Load Demonstartiont</title>
+    <meta
+      name="description"
+      content="Bryon Chase WDD 230 - Lazy Load Demonstration">
+    <meta name="author" content="Bryon Chase">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Demonstration</h1>
+    </header>
+
+    <main>
+        <picture>
+            <img src="images/BryonChase-ITDirector400x600.webp" alt="Resume Picture" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/byui-p400x600.webp" alt="Resume Picture" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/egypt400x600.webp" alt="Resume Picture" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/hero-small.webp" alt="Resume Picture" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/recepit400x600.webp" alt="Resume Picture" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/rsi400x600.webp" alt="Resume Picture" loading="lazy" width="400" height="600">
+        </picture>
+    </main>
+
+    <footer>
+        <p><a id="currentYear"></a> Bryon Chase WDD230</p>
+        <p>Date Last Modified: <a id="lastModified"></a></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+</html>
