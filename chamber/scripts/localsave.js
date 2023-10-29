@@ -1,11 +1,8 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    console.log("DOM fully loaded and parsed");
-
 const numbofVisits = document.getElementById("visitcount");
 
-if (numbofVisits){
-	let numbVisits = Number(window.localStorage.getItem("numbVisits")) || 0;
+let numbVisits = Number(window.localStorage.getItem("LCCnumbVisits")) || 0;
 
+if (numbofVisits){
 	if (numbVisits !== 0) {
 		numbofVisits.textContent = numbVisits;
 	} else {
@@ -14,11 +11,12 @@ if (numbofVisits){
 
 	numbVisits++;
 
-	localStorage.setItem("numbVisits", numbVisits);
+	localStorage.setItem("LCCnumbVisits", numbVisits);
 }
 
 const lastVisitlocation = document.getElementById("lastvisit");
 
+	
 if (lastVisitlocation){
 	const msToDays = 84600000;
 	const todaysDate = Date.now();
@@ -27,11 +25,11 @@ if (lastVisitlocation){
 	if (todaysDate - lastVisit < msToDays){
 		lastVisitlocation.textContent = "Back so soon! Awesome! ";
 	} else if (lastVisit !== 0) {
-		const numbDays = math.ceil((todaysDate - lastVisit) / msToDays);
+		const numbDays = Math.ceil((todaysDate - lastVisit) / msToDays);
 		lastVisitlocation.textContent = "You last visited " + numbDays + "days ago.";
 	} else {
 		lastVisitlocation.textContent = "Welcome! Let us know if you have any questions.";
 	}
 	
-	localStorage.setItem("lastVisit", todaysDate);	
+	localStorage.setItem("lastVisit", todaysDate);
 }

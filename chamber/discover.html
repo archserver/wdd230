@@ -1,11 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover</title>
-</head>
-<body>
-    <h1>Discover</h1>
-</body>
+    <title>Bryon Chase - WDD 230 - City of Lumberton Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="Bryon Chase WDD 230 - Lumberton Chamber of Commerce">
+    <meta name="author" content="Bryon Chase">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="icon" sizes="16x16" href="images/crawfish16.png">
+    <link rel="icon" sizes="32x32" href="images/crawfish32.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/crawfish180.png">
+    <link rel="icon" sizes="192x192" href="images/crawfish192.png">
+    <link rel="icon" sizes="512x512" href="images/crawfish512.png">
+
+    <meta
+      property="og:title"
+      content="Bryon Chase - WDD 230 - Lumberton Chamber of Commerce"
+    >
+    <meta property="og:type" content="website">
+    <meta
+      property="og:description"
+      content="Git Hub website for WDD 230 Fall 2023 Semester. - City of Limberton Chamber of Commece">
+    <meta
+      property="og:image"
+      content="https://www.east-texas.com/images/photos-lumberton/village-creek-lake-scene.jpg">
+    <meta
+      property="og:url"
+      content="https://archserver.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <header>
+      <button id="toggleAlpha">Dark</button>
+      <a id="lccc" href="index.html">
+        <img
+          class="picture"
+          src="images/welcome-to-lumberton-texas.webp"
+          alt="City Of Lumberton Sign"></a>
+      <h1>City of Lumberton Chamber of Commerce</h1>
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="index.html" title="Home" class="active">Home</a></li>
+        <li><a href="#" title="Discover" class="active">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main class= "packagedmain">
+        <aside class="sidebar">
+          <section>
+            <h2>Information</h2>
+            <p>Population 13802 </p>
+            <p>Location: <span id="location"></span></p>
+            <p>Temperature: <span id="temperature"></span></p>
+            <p>Wind Speed: <span id="windspeed"></span></p>
+            <p>Wind Direction: <span id="winddirection"></span></p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+            <p>Page Visits: <span id="visitcount"></span></p>
+            <p>Last Visit: <span id="lastvisit"></span></p>
+          </section>
+          <section>
+            <h2> Upcoming Events </h2>
+            <ul>
+              <li> 
+                <img src="images/trunkortreat-small.webp" alt="Altus Trunk or Treat">  October 28 - Trunk or Treat
+              </li>
+              <li> 
+                <img src="images/diademuertos-tiny.webp" alt="Day of the Dead Festival"> October 29 - Day of the Dead Festival
+              </li>
+            </ul>
+          </section>
+        </aside>
+        <div class="content">
+          <picture>
+            <source srcset="images/trunkortreat-small.webp" media="(max-width:600)">
+            <source srcset="images/trunkortreat-medium.webp" media="(max-width:1024)">
+            <img src="images/trunkortreat-large.webp" alt="Altus Trunk or Treat" loading="lazy" width="1124" height="1500"> October 28 - Altus Trunk or Treat
+          </picture>
+          <picture>
+            <source srcset="images/diademuertos-small.webp" media="(max-width:600)">
+            <source srcset="images/diademuertos-medium.webp" media="(max-width:1024)">
+            <img src="images/diademuertos-large.webp" alt="Day of the Dead Festival" loading="lazy" width="1500" height="1000"> October 29 - Day of the Dead Festival
+          </picture>
+          <picture>
+            <img src="images/lumberton_map.webp" alt="Lumberton Business Map" loading="lazy" width="1696" height="1733"> Our Area
+          </picture>
+          <picture>
+            <img src="images/Tia-Juanitas.webp" alt="Tia-Juanitas Restaraunt" loading="lazy" width="1067" height="607"> Restaraunt
+          </picture>
+          <picture>
+            <source srcset="images/okt23-small.webp" media="(max-width:600)">
+            <source srcset="images/okt23-medium.webp" media="(max-width:1024)">
+            <img src="images/okt23-large.webp" alt="Oktober Fest 2023" loading="lazy" width="1920" height="1080"> Oktober Fest
+          </picture>
+          <picture>
+            <source srcset="images/wayne-dylan-small.webp" media="(max-width:600)">
+            <source srcset="images/wayne-dylan-medium.webp" media="(max-width:1024)">
+            <img src="images/wayne-dylan-large.webp" alt="Concerts" loading="lazy" width="960" height="502"> Concerts
+          </picture>
+          <picture>
+            <source srcset="images/the_tree-small.webp" media="(max-width:600)">
+            <source srcset="images/the_tree-medium.webp" media="(max-width:1024)">
+            <img src="images/the_tree-Large.webp" alt="Concerts" loading="lazy" width="1500" height="1000"> Concerts
+          </picture>
+        </div>
+        </div>
+    </main>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/facebook-icon.png" alt="Facebook">
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/twitter-icon.png" alt="Twitter">
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/linkedin-icon.png" alt="LinkedIn">
+        </a>
+
+        <p>Milly Vinilly - Commerce Commissioner</p>
+        <p>409-755-1852 shoho@lccc.org</p>
+        <p><a id="currentYear"></a> Bryon Chase WDD230 Projct</p>
+        <p>Date Last Modified: <a id="lastModified"></a></p>
+      </div>
+    </footer>
+    
+ <!--     <script src="scripts/getdates.js"></script>
+    <script src="scripts/cp_hamburger.js"></script>
+    <script src="scripts/alphamode.js"></script>
+  <script src="scripts/weather.js"></script> 
+    <script src="scripts/windchill.js"></script>   --> 
+    <script src="scripts/localsave.js"></script>
+  </body>
 </html>

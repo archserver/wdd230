@@ -57,7 +57,10 @@
         margin: 0; 
         padding: 0 15px; 
     }
-    
+    .content img:hover {
+        box-shadow: 0 0 25px #FFF;
+    }
+
     section{
         padding: 1rem;
     }
