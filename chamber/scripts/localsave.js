@@ -1,8 +1,8 @@
 const numbofVisits = document.getElementById("visitcount");
 
-let numbVisits = Number(window.localStorage.getItem("LCCnumbVisits")) || 0;
-
 if (numbofVisits){
+	let numbVisits = Number(window.localStorage.getItem("LCCnumbVisits")) || 0;
+
 	if (numbVisits !== 0) {
 		numbofVisits.textContent = numbVisits;
 	} else {
@@ -15,7 +15,6 @@ if (numbofVisits){
 }
 
 const lastVisitlocation = document.getElementById("lastvisit");
-
 	
 if (lastVisitlocation){
 	const msToDays = 84600000;
