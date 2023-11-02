@@ -1,6 +1,8 @@
-/** {
-   border: 2px solid red;
-}*/
+:root{
+    --error-color: red;
+    --valid-color: green;
+    --id-marker-sze: 6px;
+}
 
 body{
     background-color: lightblue ;
@@ -21,6 +23,39 @@ header{
 header img{
     max-width: 75%;
     padding: 15px;
+}
+/* -- FORMS --*/
+
+label, input{
+    display: block;
+
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form input.submitBtn{
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: var(--error-color) solid var(--id-marker-sze);
+}
+
+form label.top input:required:valid{
+    border-left: var(--valid-color) solid var(--id-marker-sze);
+}
+
+
+#ermsg{
+    visibility: hidden;
+    margin: 10px;
+    padding: 0.5rem;
+    color: var(--error-color);
 }
 
 footer{

@@ -31,6 +31,15 @@
         /*text-align: center;*/
     }
 
+    form{
+        grid-column: span 2;
+    }
+
+    form input.submitBtn{
+        max-width: 20rem;
+
+    }
+
     #menu{
         display: none;
     }
