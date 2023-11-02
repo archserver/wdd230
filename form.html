@@ -72,10 +72,10 @@
       <main>
         <h2>WDD 230: Web Frontend Development Fourm</h2>
         <span id="ermsg"></span>
-        <form id="foum">
+        <form method="get" action="record.html" id="form">
             <label class="top">Username* <input type="text" id="username" name="user" required></label>
-            <label class="top">Password* <input type="password" id="password" name="password" pattern="[a-zA-Z0-9] {8}"> </label>
-            <label class="top">Confirm Password* <input type="password" id="cpassword" name="cpassword" pattern="[a-zA-Z0-9]{8}" required></label>
+            <label class="top">Password Alpha Nueric* <input type="password" id="password" name="password" minlength="8" pattern="[a-zA-Z0-9_-]"> </label>
+            <label class="top">Confirm Password* <input type="password" id="cpassword" name="cpassword" minlength="8" pattern="[a-zA-Z0-9_-]" required></label>
             <label class="top">Email <input type="email" name="email" placeholder="studentemail@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
             <label class="top">Page Rating <input type="range" name="pagerating" id="pagerating" min="1" max="10" step="1"></label>
             <input type="submit" class="submitBtn" value="Record My Rating">
