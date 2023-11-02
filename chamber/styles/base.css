@@ -247,13 +247,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar{
-    position:sticky;
     top: 0;
     align-self: start;
     /*grid-column: 1;
     grid-row: 1;*/
     width: 250px;
-    height: 87vh;
+    height: 89vh;
     background-color: white;
     grid-column: 1;
     text-align: left;
@@ -269,8 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content{
-   grid-column: 2;
-   grid-row: 1;
+   grid-column: 1;
 }
 .content img {
     max-width: 95%;

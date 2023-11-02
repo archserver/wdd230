@@ -52,6 +52,15 @@
         justify-content: space-between;
 	}
 
+    .sidebar{
+        position:sticky;
+    }
+
+    .content{
+        grid-column: 2;
+        grid-row: 1;
+     }
+
     ul.navigation li {
         display: flex; /*open the menu back up*/
         margin: 0; 
