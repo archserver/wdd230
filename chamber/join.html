@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryon Chase - WDD 230 - City of Lumberton Chamber of Commerce</title>
+    <title>Join Us - City of Lumberton Chamber of Commerce</title>
     <meta
       name="description"
       content="Bryon Chase WDD 230 - Lumberton Chamber of Commerce">
@@ -66,14 +66,47 @@
       </ul>
     </nav>
     <main>
+      <div id="benefits">
+        <h1>Membership Level Benefits</h1>
+        <h2>Gold $250/mo</h2>
+          <ul>
+            <li>Scrolling Banner Highlite on Main Page</li>
+            <li>Six months free scrolling banner on Chambers Electronic Billboard</li>
+            <li>Six months of free ad in Commerce Pamphlet</li>
+            <li>Allowed fifteen minutes at each Board Meetings for presentation or request</li>
+            <li>Annual Event invitation for additional two for a total of six</li>
+            <li>One ticket for the monthly Lunch and Learn</li>
+            <li>All Silver Benefits</li>
+          </ul>
+        <h2>Silver $100/mo</h2>
+          <ul>
+            <li>Discount for all events</li>
+            <li>Annual Event invitation for additional two total of four</li>
+            <li>One ticket to Quartly Networking</li>
+            <li>All Bronze Benifits</li>
+          </ul>
+        <h2>Bronze $50/mo</h2>
+            <ul>
+              <li>Use of chapter resources.</li>
+              <li>Annual Event invitation for two</li>
+              <li>Website and Directory Listing</li>
+          </ul>
+          <h2>Non Profit - No cost</h2>
+            <ul>
+              <li>Use of chapter resources.</li>
+              <li>Annual Event invitation for one</li>
+              <li>Website and Directory Listing</li>
+            </ul>
+      </div>
+      <div id="formset">
         <span id="ermsg"></span>
-        <form method="get" action="request.html" id="form">
+        <form method="get" action="thankyou.html" id="form">
             <fieldset>
                 <legend> Applicant Information </legend>     
                 <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
-                <label class="top">Title or Position* <input type="text" id="tp" name="tp"  minlength="7" pattern="[a-zA-Z_-]" required></label>
-                <label class="top">Phone* <input type="phone" id="phone" name="phone" minlength="8" pattern="[a-zA-Z0-9_-]" required> </label>
+                <label class="top">Title or Position* <input type="text" id="tp" name="tp"  minlength="7" pattern="[a-zA-Z0-9_-]{7,}" required></label>
+                <label class="top">Phone* <input type="tel" id="phone" name="phone" minlength="8" pattern="[a-zA-Z0-9_-]" required> </label>
                 <label class="top">Email* <input type="email" id="email" name="email" placeholder="email@gmail.com" pattern="[a-zA-Z0-9._%+-]+$" required></label>
             </fieldset>
 
@@ -96,6 +129,9 @@
             <input type="submit" class="submitBtn" value="Send My Join Request">
             <input type="hidden" class="hidden" id="loadtime" name="loadtime">
         </form>
+      </div>
+       
+
     </main>
     <footer>
       <div class="social-links">
