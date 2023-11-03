@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join</title>
-</head>
-<body>
-    <h1>Join</h1>
-</body>
+    <title>Bryon Chase - WDD 230 - City of Lumberton Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="Bryon Chase WDD 230 - Lumberton Chamber of Commerce">
+    <meta name="author" content="Bryon Chase">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="icon" sizes="16x16" href="images/crawfish16.png">
+    <link rel="icon" sizes="32x32" href="images/crawfish32.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/crawfish180.png">
+    <link rel="icon" sizes="192x192" href="images/crawfish192.png">
+    <link rel="icon" sizes="512x512" href="images/crawfish512.png">
+
+    <meta
+      property="og:title"
+      content="Bryon Chase - WDD 230 - Lumberton Chamber of Commerce"
+    >
+    <meta property="og:type" content="website">
+    <meta
+      property="og:description"
+      content="Git Hub website for WDD 230 Fall 2023 Semester. - City of Limberton Chamber of Commece">
+    <meta
+      property="og:image"
+      content="https://www.east-texas.com/images/photos-lumberton/village-creek-lake-scene.jpg">
+    <meta
+      property="og:url"
+      content="https://archserver.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <header>
+      <button id="toggleAlpha">Dark</button>
+      <a id="lccc" href="index.html">
+        <img
+          class="picture"
+          src="images/welcome-to-lumberton-texas.webp"
+          alt="City Of Lumberton Sign"></a>
+      <h1>City of Lumberton Chamber of Commerce</h1>
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="index.html" title="Home" class="active">Home</a></li>
+        <li><a href="#" title="Discover" class="active">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+        <span id="ermsg"></span>
+        <form method="get" action="request.html" id="form">
+            <fieldset>
+                <legend> Applicant Information </legend>     
+                <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label class="top">Title or Position* <input type="text" id="tp" name="tp"  minlength="7" pattern="[a-zA-Z_-]" required></label>
+                <label class="top">Phone* <input type="phone" id="phone" name="phone" minlength="8" pattern="[a-zA-Z0-9_-]" required> </label>
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="email@gmail.com" pattern="[a-zA-Z0-9._%+-]+$" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business / Orginization Information</legend>  
+                <label class="top">Name* <input type="text" id="oname" name="oname" required></label>
+                <label class="txbox">Description* 
+                  <textarea name="description" placeholder="Enter information about your Business or Orinization" required> </textarea>
+                </label>
+            </fieldset>   
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Platinum</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Gold</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership is for non profit organizations, fee is waved!</label>
+            </fieldset>
+
+            <input type="submit" class="submitBtn" value="Send My Join Request">
+            <input type="hidden" class="hidden" id="loadtime" name="loadtime">
+        </form>
+    </main>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/facebook-icon.png" alt="Facebook">
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/twitter-icon.png" alt="Twitter">
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/linkedin-icon.png" alt="LinkedIn">
+        </a>
+
+        <p>Milly Vinilly - Commerce Commissioner</p>
+        <p>409-755-1852 shoho@lccc.org</p>
+        <p><a id="currentYear"></a> Bryon Chase WDD230 Projct</p>
+        <p>Date Last Modified: <a id="lastModified"></a></p>
+      </div>
+    </footer>
+    
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/cp_hamburger.js"></script>
+    <script src="scripts/alphamode.js"></script>
+    <script src="scripts/weather.js"></script> 
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/localsave.js"></script>
+  </body>
 </html>

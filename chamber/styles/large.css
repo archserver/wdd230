@@ -35,6 +35,11 @@
     nav a{
         font-size: 250%;
     }
+
+    form label.top, form label.txbox, form label.sbs{
+        color: #045033;
+        font-size: 1.2rem;
+    }
     
     footer{
         font-size: 200%;
