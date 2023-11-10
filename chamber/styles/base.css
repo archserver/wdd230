@@ -245,7 +245,7 @@ form label.top input:required:valid{
 }
 
 @keyframes slideshow {
-    0%, 15% {
+    /*0%, 15% {
         transform: translateX(0%);
     }
     30%, 45% {
@@ -256,8 +256,8 @@ form label.top input:required:valid{
     }
     90%, 100% {
         transform: translateX(-300%);
-    }
-    /*0%, 20% {
+    }*/
+    0%, 20% {
         transform: translateX(0%);
     }
     40%, 60% {
@@ -265,7 +265,7 @@ form label.top input:required:valid{
     }
     80%, 100% {
         transform: translateX(-200%);
-    }*/
+    }
 }
 
 .biz-grid {

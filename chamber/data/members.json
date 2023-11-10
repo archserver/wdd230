@@ -1,0 +1,94 @@
+{
+    "members": {
+      "gold": [
+        {
+          "name": "Beaumont Machine Works",
+          "address": "11357 Beasley Dr., Lumberton, Texas 77657",
+          "phoneNumber": "+14098380261",
+          "website": "https://www.beaumontmachineworks.com/",
+          "imageIcon": "bmw.webp",
+          "description": "Heat Exchanger and Pressure Vessel Manufacture and Repair",
+          "contactPerson": "Paul Johnstone"
+        },
+        {
+          "name": "Cheer Town Allstars",
+          "address": "1534 Hwy 69 South / Frontage Rd., Lumberton, Texas 77657",
+          "phoneNumber": "+14097551872",
+          "website": "https://www.cheertownusa.net/",
+          "imageIcon": "ctas.webp",
+          "description": "Formal Cheer Instruction & Compatition Group",
+          "contactPerson": "Lindsey Thomas"
+        },
+        {
+          "name": "Eastex Foundation Service",
+          "address": "335 Talpa Trl., Lumberton, Texas 77657",
+          "phoneNumber": "+14093471203",
+          "website": "https://www.eastexfoundationservices.com/",
+          "imageIcon": "etfr.webp",
+          "description": "Foundations for the right side of Texas",
+          "contactPerson": "Robert Stephens"
+        }
+      ],
+      "silver": [
+        {
+          "name": "Oranday Bros - Jiu Jitsu",
+          "address": "1816 Highway 96 S. Lumberton, Texas 77657",
+          "phoneNumber": "+14098531590",
+          "website": "https://orandaybrosjiujitsu.com/",
+          "imageIcon": "oranday-logo-sm.webp",
+          "description": "Jiu Jitsu instruction for all ",
+          "contactPerson": "Bambi Martin"
+        },
+        {
+          "name": "Ratliff Industries",
+          "address": "9514 Ratliff Dr, Lumberton, Texas 77657",
+          "phoneNumber": "+14097551830",
+          "website": "https://www.ratliffinc.com/",
+          "imageIcon": "ratliff2.webp",
+          "description": "fabricator of structural and miscellaneous steel for the industrial, petrochemical and commercial industries.",
+          "contactPerson": "Mike Ratcliff"
+        },
+        {
+            "name": "Nice Guy Ricky's American Grill",
+            "address": "192 S Highway 287/69 Dr, Lumberton, TX 77657",
+            "phoneNumber": "+14092270092",
+            "website": "https://www.facebook.com/100083054301199/",
+            "imageIcon": "ngrag.webp",
+            "description": "Best Restraunt Grill in Lumberton Texas",
+            "contactPerson": "Ricky Martinez"
+          }
+      ],
+      "bronze": [
+        {
+          "name": "The Tree Restaurant Bar and Grill",
+          "address": "434 N Lhs Dr, Lumberton, Texas 77657",
+          "phoneNumber": "+14092270384",
+          "website": "#",
+          "imageIcon": "the_tree-small.webp",
+          "description": "Formal Dining in Lumberton Texas",
+          "contactPerson": "Miles Davis"
+        },
+        {
+            "name": "Tia Juanita's Fish Camp",
+            "address": "322 South Main St., Lumberton, Texas 77657",
+            "phoneNumber": "+14092270806",
+            "website": "https://www.facebook.com/tiajuanitaslumberton/",
+            "imageIcon": "tjfc.webp",
+            "description": "Rocking Fish Restaraunt and grill with live music in Lumberton Texas",
+            "contactPerson": "Jimmy Rodgers"
+        }
+      ],
+      "non-profit": [
+        {
+          "name": "Risinger & Nelson Orthodontic Specialist",
+          "address": "228A Country Lane Lumberton, Texas 77657",
+          "phoneNumber": "+14097512010",
+          "website": "https://drrisingersmiles.com/",
+          "imageIcon": "risinger-logo-header1.webp",
+          "description": "The foundation for Orthodontics for all.",
+          "contactPerson": "Dr. Ronald Risinger"
+        }
+      ]
+    }
+  }
+  

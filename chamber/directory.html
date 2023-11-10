@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You - City of Lumberton Chamber of Commerce</title>
+    <title>City of Lumberton Chamber of Commerce</title>
     <meta
       name="description"
       content="Bryon Chase WDD 230 - Lumberton Chamber of Commerce">
@@ -28,8 +28,24 @@
       href="images/crawfish180.png">
     <link rel="icon" sizes="192x192" href="images/crawfish192.png">
     <link rel="icon" sizes="512x512" href="images/crawfish512.png">
+
+    <meta
+      property="og:title"
+      content="Bryon Chase - WDD 230 - Lumberton Chamber of Commerce"
+    >
+    <meta property="og:type" content="website">
+    <meta
+      property="og:description"
+      content="Git Hub website for WDD 230 Fall 2023 Semester. - City of Limberton Chamber of Commece">
+    <meta
+      property="og:image"
+      content="https://www.east-texas.com/images/photos-lumberton/village-creek-lake-scene.jpg">
+    <meta
+      property="og:url"
+      content="https://archserver.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
   </head>
-<body>
+  <body>
     <header>
       <button id="toggleAlpha">Dark</button>
       <a id="lccc" href="index.html">
@@ -42,15 +58,21 @@
     <nav>
       <button id="menu"></button>
       <ul class="navigation">
-        <li><a href="index.html" title="Home" class="active">Home</a></li>
-        <li><a href="#" title="Discover" class="active">Discover</a></li>
+        <li><a href="#" title="Home" class="active">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
     <main>
-        <h1>Thankyou Your Application will be reviewed and we will contact you shortly!!</h1>
+      <h2>Member Directory</h2>
+      <div id="gl-selector">
+        <button type="submit" id="grid-btn"> <img src="images/icons/grid.webp"></button>
+        <button type="submit" id="list-btn"> <img src="images/icons/list.webp"></button>
+      </div>
+      <article class="grid">
+      </article>
     </main>
     <footer>
       <div class="social-links">
@@ -82,10 +104,10 @@
         <p>Date Last Modified: <a id="lastModified"></a></p>
       </div>
     </footer>
-    
+    <script src="scripts/localsave.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/cp_hamburger.js"></script>
     <script src="scripts/alphamode.js"></script>
-    <script src="scripts/localsave.js"></script>
+    <script src="scripts/members.js"></script>
   </body>
 </html>
