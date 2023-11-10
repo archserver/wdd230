@@ -1,0 +1,138 @@
+{
+    "lessons": [
+        {
+            "lesson" : "01",
+            "links" : [
+                {
+                    "url" : "lesson01/holygrail.html",
+                    "title" : "Holy Grail Template"
+                },
+                {
+                    "url" : "lesson01/codepensample.html",
+                    "title" : "Codepen Sample"
+                }
+            ]
+        },
+        {
+            "lesson" : "02",
+            "links" : [
+                {
+                    "url" : "lesson02/design.html",
+                    "title" : "Design Principals"
+                },
+                {
+                    "url" : "lesson02/media-query.html",
+                    "title" : "Media Query"
+                },
+                {
+                    "url" : "lesson02/princopldoc.html",
+                    "title" : "Principals Document"
+                }
+            ]
+        },
+        {
+            "lesson" : "03",
+            "links" : [
+                {
+                    "url" : "images/combinators.webp",
+                    "title" : "Combinator Exersize"
+                },
+                {
+                    "url" : "lesson03/cp_pseudo-element.html",
+                    "title" : "Pseudo-Elements"
+                },
+                {
+                    "url" : "lesson03/cp_hamburger.html",
+                    "title" : "Responsive: Hamburger"
+                },
+                {
+                    "url" : "lesson032/chamber-site-plan.html",
+                    "title" : "Site Plan: Chamber"
+                }
+            ]
+        },
+        {
+            "lesson" : "04",
+            "links" : [
+                {
+                    "url" : "lesson04/cp_psudoclasfun.html",
+                    "title" : "Psudo-class Fun"
+                }
+            ]
+        },
+        {
+            "lesson" : "05",
+            "links" : [
+                {
+                    "url" : "lesson05/bom.html",
+                    "title" : "DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "lesson" : "06",
+            "links" : [
+                {
+                    "url" : "lesson06/images/landscape.webp",
+                    "title" : "WebP"
+                },
+                {
+                    "url" : "lesson06/responsive-image.html",
+                    "title" : "Responsive Image"
+                }
+            ]
+        },
+        {
+            "lesson" : "07",
+            "links" : [
+                {
+                    "url" : "lesson07/lazyload.html",
+                    "title" : "Lazy Load Demo"
+                },
+                {
+                    "url" : "lesson07/bom.html",
+                    "title" : "BOM Enhancement"
+                }
+            ]
+        },
+        {
+            "lesson" : "08",
+            "links" : [
+                {
+                    "url" : "lesson08/tabelbuild.html",
+                    "title" : "Tables"
+                },
+                {
+                    "url" : "lesson08/howtofourms.html",
+                    "title" : "How to Build Forms"
+                },
+                {
+                    "url" : "lesson08/fourm.html",
+                    "title" : "Rating Form"
+                }
+            ]
+        },
+        {
+            "lesson" : "09",
+            "links" : [
+                {
+                    "url" : "lesson09/new-ward-membership.json",
+                    "title" : "Membership JSON"
+                },
+                {
+                    "url" : "lesson09/prophets.html",
+                    "title" : "Prophets JSON"
+                }
+            ]
+        },
+        {
+            "lesson" : "10",
+            "links" : [
+                {
+                    "url" : "lesson10/weather.html",
+                    "title" : "Weather API"
+                }   
+            ]
+        }
+    ]
+}
