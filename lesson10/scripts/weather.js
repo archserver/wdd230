@@ -12,7 +12,7 @@ async function apiFetch(){
         const response = await fetch(totalurl);
         if(response.ok){
             const data = await response.json();
-//            console.log(data);
+            console.log(data);
             displayResults(data);
         }
         else{
@@ -36,7 +36,7 @@ function displayResults(results){
         currentTemp.textContent = fehrenheit.toFixed(0)  + " °F";
     }
     if(weatherIcon){ 
-        weatherIcon.setAttribute('src', `https:\\openweathermap.org/img/w/${results.weather[0].icon}.png`);
+        weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${results.weather[0].icon}.png`);
         weatherIcon.setAttribute('alt', `${results.weather[0].description}`);
     }
     if(cDisc){
