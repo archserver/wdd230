@@ -49,7 +49,7 @@
 		flex-direction: row;
 	}
 
-    .biz-grid h2{
+    .biz-grid h2, .grid h3, .list h3{
         color: var(--paragraph-color-on-white);
     }
     .navigation li {

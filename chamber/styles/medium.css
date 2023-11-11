@@ -46,7 +46,7 @@
         font-size: 150%;
     }
 
-    .slideshow{
+    .slideshow, .gl-selector, .grid{
         grid-column: span 2;
     }
 
@@ -62,9 +62,10 @@
         align-items: center;
         height: 100%;
     }*/
-    .biz-grid{
+    .biz-grid, #gl-selector, .list{
         grid-column: span 2;
     }
+
     .navigation {
 		flex-direction: row;
 	}
