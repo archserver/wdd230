@@ -74,7 +74,7 @@ function displayResults(results){
         winddirection.textContent = results.wind.deg + "°";
      }
     if(weatherIcon){ 
-        weatherIcon.setAttribute('src', `https:\\openweathermap.org/img/w/${results.weather[0].icon}.png`);
+        weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${results.weather[0].icon}.png`);
         weatherIcon.setAttribute('alt', `${results.weather[0].description}`);
     }
     if(cDisc){
