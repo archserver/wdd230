@@ -10,7 +10,7 @@ if (bannerClose)
     }
     else
     {
-        bannerClose.addEventListener("click", closebanner);
+        bannerClose.addEventListener("click", closeBanner);
     }
 }
 
