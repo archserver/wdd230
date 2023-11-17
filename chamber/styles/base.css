@@ -29,6 +29,27 @@ body{
     padding: 5px;
 }
 
+.banner{
+    background-color: var(--accent2-color);
+}
+.banner_content{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.banner_text {
+    flex-grow: 1;
+    line-height: 1.4;
+}
+
+.banner_close{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 header{
     display: flex;
     flex-direction: column;

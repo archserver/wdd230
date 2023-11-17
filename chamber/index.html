@@ -46,6 +46,16 @@
     <meta name="twitter:card" content="summary_large_image">
   </head>
   <body>
+    <div class="banner"> 
+      <div class="banner_content">
+        <div class="banner_text">
+          Please join us at our Chamber of Commerce commitee meeting on Wdenesday at 7pm 
+        </div>
+        <button class="banner_close" type="button"> 
+          <span class="close-button"> 💢</span>
+        </button>
+      </div>
+    </div>
     <header>
       <button id="toggleAlpha">Dark</button>
       <a id="lccc" href="index.html">
@@ -125,6 +135,11 @@
         <p>Wind Chill: <span id="windchill"></span></p>
         <p>Page Visits: <span id="visitcount"></span></p>
       </section>
+      <section class="forecast">
+        <h2>Three Day Forecast</h2>
+        <ul>
+        </ul>
+      </section>
     </main>
     <footer>
       <div class="social-links">
@@ -160,7 +175,9 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/cp_hamburger.js"></script>
     <script src="scripts/alphamode.js"></script>
+    <script src="scripts/bannerclose.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
     <script src="scripts/windchill.js"></script>    
   </body>
 </html>
