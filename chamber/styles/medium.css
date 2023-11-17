@@ -46,7 +46,7 @@
         font-size: 150%;
     }
 
-    .slideshow, .gl-selector, .grid{
+    .slideshow, .gl-selector, .grid, .biz-grid, .list, .forecast{
         grid-column: span 2;
     }
 
@@ -62,7 +62,7 @@
         align-items: center;
         height: 100%;
     }*/
-    .biz-grid, #gl-selector, .list{
+#gl-selector{
         grid-column: span 2;
     }
 
