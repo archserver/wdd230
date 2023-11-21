@@ -14,6 +14,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
+        align-items: first baseline;
     }
 
     h2{
@@ -46,7 +47,7 @@
         font-size: 150%;
     }
 
-    .slideshow, .grid, .biz-grid, .list, .forecast, #gl-selector{
+    .slideshow, .biz-grid, .grid, .list, #gl-selector{
         grid-column: span 2;
     }
 

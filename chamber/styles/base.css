@@ -380,7 +380,7 @@ section {
     background-color: rgb(165, 120, 42);
 }
 .card{
-    grid-column: span 2;
+    grid-row: 3;
     align-items: center;
     text-align: center;
 }
