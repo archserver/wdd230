@@ -447,6 +447,7 @@ section {
 
 .social-links img{
     min-width: 44px;
+    padding: 5px;
 }
 .overlay-light{
     position: absolute;
