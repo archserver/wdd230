@@ -131,6 +131,10 @@ nav a {
     font-size: larger;
 }
 
+nav a.active{
+    background-color: #267457;
+}
+
 nav a:hover{
     background-color: #7C99B4;
     color: #34252F;

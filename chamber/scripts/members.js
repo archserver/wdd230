@@ -21,7 +21,7 @@ async function getMembers(){
         const response = await fetch(linksURL);
         if(response.ok){
             const data = await response.json();
-            console.table(data.members);
+            //console.table(data.members);
             displayMembers(data.members);
         }
         else{
