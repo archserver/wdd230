@@ -1,0 +1,77 @@
+{
+    "rentals": {
+      "scooters": [
+        {
+          "name": "Honda Metropolitan",
+          "engine": "49cc",
+          "passangers": "1",
+          "rhd": "20",
+          "rfd": "30",
+          "whd": "25",
+          "wfd": "35",
+          "photo": "",
+          "Description": ""
+        },
+        {
+          "name": "Honda Dio Scooter",
+          "engine": "110cc",
+          "passangers": "2",
+          "rhd": "30",
+          "rfd": "40",
+          "whd": "35",
+          "wfd": "45",
+          "photo": "",
+          "Description": ""
+        },
+        {
+          "name": "Honda Dio PCX150",
+          "engine": "150cc",
+          "passangers": "2",
+          "rhd": "40",
+          "rfd": "50",
+          "whd": "45",
+          "wfd": "55",
+          "photo": "",
+          "Description": ""
+        }
+      ],
+      "atv": [
+        {
+          "name": "Honda Pioneer 1000",
+          "engine": "149cc",
+          "passangers": "2",
+          "rhd": "50",
+          "rfd": "70",
+          "whd": "60",
+          "wfd": "80",
+          "photo": "",
+          "Description": ""
+        }
+      ],
+      "jeeps": [
+        {
+          "name": "Jeep Wrangler - 4 door with a/c",
+          "engine": "",
+          "passangers": "5",
+          "rhd": "70",
+          "rfd": "100",
+          "whd": "85",
+          "wfd": "125",
+          "photo": "",
+          "Description": ""
+        },
+        {
+          "name": "Jeep Wrangler = 2 door",
+          "engine": "",
+          "passangers": "4",
+          "rhd": "60",
+          "rfd": "85",
+          "whd": "70",
+          "wfd": "90",
+          "photo": "",
+          "Description": ""
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,106 @@
+@media screen and  (min-width: 720px){
+    main, footer {
+        max-width: 720px;
+        margin: 1rem auto;
+        border: 1px solid #bbb;
+        padding: 1rem;
+    }
+
+    header{
+        font-size:small;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        align-items: first baseline;
+    }
+
+    h2{
+        grid-column: span 2;
+    }
+
+    nav{
+        flex-direction: row;
+        justify-content: center;
+        /*text-align: center;*/
+    }
+
+    form input.submitBtn{
+        max-width: 20rem;
+
+    }
+
+    form label.top, form label.txbox, form label.sbs{
+        font-size: 1rem;
+    }
+
+    nav a{
+        font-size: 2rem;
+        padding: 1%;
+        margin: 0;
+    }
+
+
+    footer{
+        font-size: 150%;
+    }
+
+    .slideshow, .calltoaction, .grid, .list, #gl-selector{
+        grid-column: span 2;
+    }
+
+    div.benefits{
+        position: absolute;
+        top: 15px;
+    }
+
+    /*#benifits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }*/
+
+    .navigation {
+		flex-direction: row;
+	}
+
+    ul.navigation {
+		display: flex; 
+        justify-content: space-between;
+	}
+
+    .sidebar{
+        grid-column: 1;
+        grid-row: 1;
+        position: sticky;
+        top: 0;
+        height: auto;
+    }
+
+    .content{
+        grid-column: 2;
+        grid-row: 1;
+     }
+
+    ul.navigation li {
+        display: flex; /*open the menu back up*/
+        margin: 0; 
+        padding: 0 15px; 
+    }
+    .content img:hover {
+        box-shadow: 0 0 25px #FFF;
+    }
+
+    section{
+        padding: 1rem;
+    }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+}

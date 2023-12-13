@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Motor Scooter Rentals</title>
+    <meta
+      name="description"
+      content="Scoots Motor Scooter Rentals">
+    <meta name="author" content="Bryon Chase">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Rubik+Bubbles&family=Ruslan+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="icon" sizes="16x16" href="images/scoots-16.webp">
+    <link rel="icon" sizes="32x32" href="images/scoots-32.webp">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/scoots-180.webp">
+    <link rel="icon" sizes="192x192" href="images/scoots-192.webp">
+    <link rel="icon" sizes="512x512" href="images/scoots-512.webp">
+
+    <meta
+      property="og:title"
+      content="Scoots Motor Scooter Rentals"
+    >
+    <meta property="og:type" content="website">
+    <meta
+      property="og:description"
+      content="Scoots Motor Scooter Rentals - Cozumel Mexixo">
+    <meta
+      property="og:image"
+      content="https://archserver.gethum.io/edd230/scoots/images/a3.webp">
+    <meta
+      property="og:url"
+      content="https://archserver.github.io/wdd230/scoots/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <div class="banner"> 
+      <div class="banner_content">
+        <div class="banner_text" id="hightemp">
+          Today is a good weather day!!!
+        </div>
+        <button class="banner_close" type="button"> 
+          <span class="close-button"> ❌</span>
+        </button>
+      </div>
+    </div>
+    <header>
+      <button id="toggleAlpha">Dark</button>
+      <a id="lccc" href="index.html">
+        <img
+          class="picture"
+          src="images/scoots-192.webp"
+          alt="Scoots Motor Scooter Rentals"></a>
+      <h1>Scoots Motor Scooter Rentals of Cozumel</h1>
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="#" title="Home" class="active">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="calltoaction">
+         <a href="rentals.html">We are the premier scooter, ATV and Jeep rental spot for the island of Cozumel. With two great locations.
+          First Location is near the Playa del Carmen-Cozumel Ferry dock as you come off the dock we will be streight down the strip on the right next to Cafe Antoinette.
+          Second location is 500 feet from the Terminal Puerta Maya Entrance to the right of Ron Johns Surf Shop
+          Click me to rent now!</a>
+      </div>
+      <div class="slideshow">
+        <div class="slideshow-images">
+           <picture>
+            <img
+              src="images/mexico-cozumel-top-attractions-intro-paragraph-sign-cruise-ship.webp"
+              alt="Cozumel Sign">
+          </picture>
+          <picture>
+            <img
+              src="images/mexico-cozumel-beaches-1.webp"
+              alt="Beach`">
+          </picture>
+          <picture>
+            <img src="images/mexico-cozumel-stingray-beach.webp" alt="Stingray Beach">
+          </picture>
+          <picture>
+            <img src="images/mexico-cozumel-little-sea-cozumels-national-marine-park.webp" alt="Little Sea National Park">
+          </picture>
+          <picture>
+            <img src="images/see-cozumelas you want to see it.webp" alt="See Cozumel Your Way">
+          </picture>
+        </div>
+      </div>
+      <section class="card">
+        <h2>Local Weather</h2>
+        <p>Location: <span id="location"></span></p>
+        <p>Temperature: <span id="temperature"></span></p>
+        <p>Humidity: <span id="humidity"></span></p>
+        <ul id="weatherList">
+        </ul>
+        <p>Page Visits: <span id="visitcount"></span></p>
+      </section>
+      <section class="forecast">
+        <h2>Two Business Time Forecast</h2>
+        <ul>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/icons/facebook-icon.png" alt="Facebook">
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/icons/twitter-icon.png" alt="Twitter">
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/icons/linkedin-icon.png" alt="LinkedIn">
+        </a>
+        <p><a id="currentYear"></a> Bryon Chase WDD230 Projct</p>
+        <p>Date Last Modified: <a id="lastModified"></a></p>
+      </div>
+    </footer>
+    <script src="scripts/localsave.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/cp_hamburger.js"></script>
+    <script src="scripts/alphamode.js"></script>
+    <script src="scripts/bannerclose.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>   
+  </body>
+</html>
