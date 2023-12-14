@@ -16,7 +16,7 @@
     --headline-color-on-white: rgb(114, 72, 0);/*#000;  headlines on a white background */ 
     --headline-color-on-color: rgb(251,251,255);/*#FBFBFF; headlines on a colored background */ 
     --paragraph-color-on-white: rgb(32,32,32);/*#000; paragraph text on a white background */ 
-    --paragraph-color-on-color: rgb(251,251,255);/*#FBFBFF; paragraph text on a colored background */ 
+    --paragraph-color-on-color: rgb(221, 221, 245);/*#FBFBFF; paragraph text on a colored background */ 
     --paragraph-background-color: rgb(3,25, 40);/*#031928;*/
     --nav-link-color: rgb(250, 240, 181);/*#E92610;*/
     --nav-background-color: rgb(9, 59, 47);/*#093b2f;*/

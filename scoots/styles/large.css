@@ -19,6 +19,7 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
     }
+    h1{ color: var(--paragraph-color-on-color);}
     h2{
         grid-column: span 2;
     }
