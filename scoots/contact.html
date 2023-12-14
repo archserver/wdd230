@@ -1,11 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
-    <h1>Contact US</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoots Motor Scooter Rentals- Contact Us</title>
+    <meta name="description" content="Scoots Motor Scooter Rentals" />
+    <meta name="author" content="Bryon Chase" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Rubik+Bubbles&family=Ruslan+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+
+    <link rel="icon" sizes="16x16" href="images/scoots-16.webp" />
+    <link rel="icon" sizes="32x32" href="images/scoots-32.webp" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/scoots-180.webp"
+    />
+    <link rel="icon" sizes="192x192" href="images/scoots-192.webp" />
+    <link rel="icon" sizes="512x512" href="images/scoots-512.webp" />
+
+    <meta property="og:title" content="Scoots Motor Scooter Rentals" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Scoots Motor Scooter Rentals - Cozumel Mexixo"
+    />
+    <meta
+      property="og:image"
+      content="https://archserver.gethum.io/edd230/scoots/images/a3.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://archserver.github.io/wdd230/scoots/index.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <header>
+      <button id="toggleAlpha">Dark</button>
+      <a id="lccc" href="index.html">
+        <img
+          class="picture"
+          src="images/scoots-192.webp"
+          alt="Scoots Motor Scooter Rentals"
+      /></a>
+      <h1>Scoots Motor Scooter Rentals of Cozumel</h1>
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a class="active" href="#">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="contactinfo">
+        <h2>Jimmy Buffer - Owner Operator</h2>
+        <a href="mail:jimmy.b@scooters.mx">Email Us</a>
+        <a href="tel:+529878725213">Phone Us</a>
+      </div>
+      <div class="googlemap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d233.38664906748687!2d-87.07546654623833!3d20.621258306992587!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Ferry%20dock!5e0!3m2!1sen!2sus!4v1702515220445!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+      <div class="googlemap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d383.27637123309404!2d-86.97559285737266!3d20.475329541645998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Terminal%20Puerta%20Maya!5e0!3m2!1sen!2sus!4v1702515691651!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </main>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/icons/facebook-icon.png" alt="Facebook" />
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/icons/twitter-icon.png" alt="Twitter" />
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/icons/linkedin-icon.png" alt="LinkedIn" />
+        </a>
+        <p><a id="currentYear"></a> Bryon Chase WDD230 Projct</p>
+        <p>Date Last Modified: <a id="lastModified"></a></p>
+      </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/cp_hamburger.js"></script>
+    <script src="scripts/alphamode.js"></script>
+  </body>
 </html>

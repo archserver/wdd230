@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scoots Motor Scooter Rentals</title>
+    <title>Reservations - Scoots Motor Scooter Rentals</title>
     <meta
       name="description"
       content="Scoots Motor Scooter Rentals">
@@ -57,13 +57,13 @@
       <button id="menu"></button>
       <ul class="navigation">
         <li><a href="index.html" title="Home">Home</a></li>
-        <li><a class="active" href="#">Rentals</a></li>
-        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a class="active" href="#">Reservations</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
     <main>
-      <div>
+      <div id="rentalagreement">
         <h2>Rental Service Aregreement and resquirements</h2>
         <ul>
           <li>A $50 security deposit is required to confirm reservations.</li>
@@ -77,10 +77,57 @@
           <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
           <li>Rentals may be returned to either physical location.</li>
         </ul>
-      </div>
-      <div id="rentaltable">
-        <table>
-        </table>
+    </div>
+    <div id="formset">
+        <span id="ermsg"></span>
+        <form method="get" action="thankyou.html" id="form">
+            <fieldset>
+                <legend> Personal Information </legend>     
+                <label class="top">Name* <input type="text" id="name" name="name" required></label>
+                <label class="top">Phone* <input type="tel" id="phone" name="phone" minlength="8" pattern="[0-9-+.]+" required> </label>
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="email@gmail.com" required></label>
+                <label class="top">State or Country* <input type="text" id="sc" name="sc"  minlength="3" pattern="[.a-zA-Z]{3,}" required></label>
+                <label class="top">Cruise or Air line<input type="text" id="ca" name="ca"  minlength="3" pattern="[.a-zA-Z]{3,}"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Vehicle Rental Information</legend>  
+                <label class="top">Arrival Date* <input type="date" id="adate" name="adate" required></label>
+                <label class="top">Duration use .5 for half day or use a while number for full days**<input type="number" id="duration" name="duration" step="0.5" required></label>
+                <label class="top" for="vehicle1">Vehicle Type 1</label>
+                  <select id ="vehicle1" name="vehicle1" required>
+                    <option value="">Select your rental</option>
+                    <option value="metropolitan">Honda Metropolitan</option>
+                    <option value="scooter">Honda Dio Scooter</option>
+                    <option value="pcx150">Honda Dio PCX150</option>
+                    <option value="atv">Honda Pioneer 1000</option>
+                    <option value="jeep4d">Jeep Wrangler - 4 door with a/c</option>
+                    <option value="jeep2d">Jeep Wrangler- 2 door</option>
+                  </select>
+                <label class="top">Qty of Vehicle Type 1* <input type="number" id="v1qty" name="v1qty" required></label>
+                <label class="top" for="vehicle2">Vehicle Type 2</label>
+                <select id ="vehicle2" name="vehicle2">
+                  <option value="">No Second Vehicle Selected</option>
+                  <option value="metropolitan">Honda Metropolitan</option>
+                  <option value="scooter">Honda Dio Scooter</option>
+                  <option value="pcx150">Honda Dio PCX150</option>
+                  <option value="atv">Honda Pioneer 1000</option>
+                  <option value="jeep4d">Jeep Wrangler - 4 door with a/c</option>
+                  <option value="jeep2d">Jeep Wrangler- 2 door</option>
+                </select>
+              <label class="top">Qty of Vehicle Type 2* <input type="number" id="v2qty" name="v2qty" required></label>
+            </fieldset>   
+
+            <fieldset>
+                <legend>Other Information</legend>
+                <label class="txbox">Special Accomidations or Comments> 
+                  <textarea name="sac" placeholder="Enter Hotel, drop off or pickup information in the space provided"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" class="submitBtn" value="Send My Reservation Request">
+            <input type="hidden" class="hidden" id="loadtime" name="loadtime">
+        </form>
       </div>
     </main>
     <footer>
@@ -113,6 +160,5 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/cp_hamburger.js"></script>
     <script src="scripts/alphamode.js"></script>
-    <script src="scripts/equipment.js"></script>   
   </body>
 </html>

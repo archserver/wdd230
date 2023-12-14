@@ -2,7 +2,6 @@
     body {
         font-family: Rowdies, Helvetica, sans-serif;
     }
-
     main, footer {
         max-width: 75%;
         margin: 1rem auto;
@@ -10,37 +9,30 @@
         padding: 1rem;
         background-color: #6eb4d0;
     }
-
     header{
         background-color: black;
         color: white;
         flex-direction: row;
     }
-
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
     }
-
     h2{
         grid-column: span 2;
     }
-
     nav{
         flex-direction: row;
         /*text-align: center;*/
     }
-
     nav a{
         font-size: 250%;
     }
-
     form label.top, form label.txbox, form label.sbs{
         color: #045033;
         font-size: 1.2rem;
     }
-    
     footer{
         font-size: 200%;
         color: var(--paragraph-color-on-white);
@@ -48,7 +40,6 @@
     .navigation {
 		flex-direction: row;
 	}
-
     h2, h3{
         color: var(--paragraph-color-on-white);
     }
@@ -56,10 +47,8 @@
 		display: block;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
-
     section{
         padding: 1rem;
         background-color: #fff;
     }
-
 }
