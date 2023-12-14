@@ -218,10 +218,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*-- start of table */
 table {
-	margin: 10px auto;
-	border: thin solid var(--border-color);
-	box-shadow: 0 0 10px var(--nav-background-color);
-	border-collapse: collapse;
+    margin: 10px auto;
+    border: thin solid var(--border-color);
+    box-shadow: 0 0 10px var(--nav-background-color);
+    border-collapse: collapse;
     font-family: var(--heading-font);
     font-size: small;
 }
